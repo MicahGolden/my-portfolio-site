@@ -1,0 +1,40 @@
+.main-header {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(113, 109, 160);
+  color: rgb(198, 184, 184);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.main-header .home-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header .home-row a {
+  font-size: 50px;
+  margin-top: auto;
+  color: white;
+  text-decoration: none;
+}
+.main-header .home-row a:hover {
+  margin-top: auto;
+  color: rgb(172, 153, 153);
+  cursor: pointer;
+}
+.main-header h1 {
+  font-size: 40px;
+  font-style: italic;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .main-header .home-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-header h1 {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=Header.css.map */

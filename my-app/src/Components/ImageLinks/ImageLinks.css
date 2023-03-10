@@ -1,0 +1,54 @@
+.main-div {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.main-div div {
+  border-radius: 10px;
+}
+.main-div input {
+  width: 20%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.main-div input:focus {
+  outline: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.main-div .image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.main-div .image-grid .project-0, .main-div .image-grid .project-2, .main-div .image-grid .project-4, .main-div .image-grid .project-6, .main-div .image-grid .project-8, .main-div .image-grid .project-10, .main-div .image-grid .project-12, .main-div .image-grid .project-14 {
+  background-color: #2b9caf;
+}
+.main-div .image-grid .project-1, .main-div .image-grid .project-3, .main-div .image-grid .project-5, .main-div .image-grid .project-7, .main-div .image-grid .project-9, .main-div .image-grid .project-11, .main-div .image-grid .project-13, .main-div .image-grid .project-15 {
+  background-color: #530e4c;
+}
+.main-div .image-grid h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.main-div .image-grid p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.main-div .image-grid a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #273c75;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.main-div .image-grid a:hover {
+  background-color: #192a56;
+}/*# sourceMappingURL=ImageLinks.css.map */
